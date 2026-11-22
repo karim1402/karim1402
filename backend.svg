@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-labelledby="title desc">
+  <title id="title">Karim Mohamed · Backend Developer</title>
+  <desc id="desc">Cairo, Egypt. PHP and Laravel. An exploded isometric server traces a request across three layers.</desc>
+  <defs>
+    <linearGradient id="ink" x2="1" y2=".24" gradientUnits="objectBoundingBox">
+      <stop stop-color="#14191c"/><stop offset=".62" stop-color="#1b252a"/><stop offset="1" stop-color="#213239"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff4d9"/><stop offset="1" stop-color="#a5b5ab"/>
+    </linearGradient>
+    <linearGradient id="copper" x2="1" y2="1">
+      <stop stop-color="#ffd097"/><stop offset=".5" stop-color="#ff945f"/><stop offset="1" stop-color="#f26439"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="23" patternUnits="userSpaceOnUse">
+      <path d="m0 11.5 20-11.5 20 11.5-20 11.5z" fill="none" stroke="#a9d7c5" stroke-opacity=".13" stroke-width=".7"/>
+    </pattern>
+    <linearGradient id="grid-fade"><stop stop-color="white" stop-opacity="0"/><stop offset=".6" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity=".49"/></linearGradient>
+    <mask id="grid-mask"><rect x="450" width="550" height="330" fill="url(#grid-fade)"/></mask>
+    <g id="vent" stroke="#283b41" stroke-width="3"><path d="m0 0 0 9 m6-12v9 m6-12v9 m6-12v9 m6-12v9 m6-12v9 m6-12v9 m6-12v9"/></g>
+    <style>
+      .signal { animation: trace 5.2s linear infinite; }
+      .later { animation-delay: -2.6s; }
+      @keyframes trace { to { stroke-dashoffset: -240; } }
+      @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1000" height="330" rx="15" fill="url(#ink)"/>
+  <rect x="450" width="550" height="330" rx="15" fill="url(#grid)" mask="url(#grid-mask)"/>
+  <g transform="translate(51,37)">
+    <g fill="#ff965e"><path d="M0 13 9 0h6L6 13zm12 0 9-13h6l-9 13z"/></g>
+    <text x="42" y="12" fill="#f5cbab" font-family="Menlo, Consolas, monospace" font-size="15" letter-spacing="2.1">BACKEND DEVELOPER</text>
+  </g>
+  <text x="46" y="151" fill="#fff5df" font-family="Helvetica Neue, Arial, sans-serif" font-size="103" font-weight="700" letter-spacing="-7">Karim</text>
+  <text x="47" y="240" fill="#fff5df" font-family="Georgia, Times New Roman, serif" font-size="106" font-style="italic" letter-spacing="-6">Mohamed<tspan fill="#ff945b">.</tspan></text>
+  <path d="M52 272h351" stroke="#495958"/>
+  <text x="52" y="298" fill="#d6dfd3" font-family="Menlo, Consolas, monospace" font-size="16">Cairo, Egypt<tspan fill="#f59a70">  /  </tspan>PHP &amp; Laravel</text>
+
+  <!-- Copper traces and their reduced-motion-safe signal highlights. -->
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path id="inlet" d="m488 206 50-25 45 23 85-42" stroke="#966e53" stroke-width="2"/>
+    <path d="m488 206 50-25 45 23 85-42" class="signal" stroke="#ffb77e" stroke-width="3.5" stroke-dasharray="12 228"/>
+    <path d="m840 205 51 26 34-17 50 25" stroke="#608b84" stroke-width="2"/>
+    <path d="m840 205 51 26 34-17 50 25" class="signal later" stroke="#ace2ce" stroke-width="3.5" stroke-dasharray="12 228"/>
+    <g stroke="#9ac5b6" opacity=".65" stroke-dasharray="4 5">
+      <path d="M626 102v107m128-165v100m128-43v108m-128-43v108"/>
+    </g>
+  </g>
+  <g fill="#1c282c" stroke-width="2"><circle cx="488" cy="206" r="4" stroke="#fbb788"/><circle cx="975" cy="239" r="4" stroke="#acdac8"/></g>
+
+  <!-- The base, compute layer and lifted cover share the same projection. -->
+  <path d="m607 226 147-70 148 70-148 72z" fill="#0d1719" opacity=".58"/>
+  <g stroke-linejoin="round" stroke-width="1.3">
+    <path d="m619 203 135-64 137 64-137 66z" fill="#9bac9f" stroke="#d5dccd"/>
+    <path d="m619 203 135 66v17l-135-66z" fill="#465b59" stroke="#78938c"/>
+    <path d="m754 269 137-66v17l-137 66z" fill="#697f75" stroke="#acc0ab"/>
+    <use href="#vent" x="819" y="242"/><path d="m634 219 18 9" stroke="#ffb478" stroke-width="3"/>
+    <path d="m623 158 131-63 132 63-132 63z" fill="url(#copper)" stroke="#ffd1a7"/>
+    <path d="m623 158 131 63v18l-131-63z" fill="#be5639" stroke="#ec8653"/>
+    <path d="m754 221 132-63v18l-132 63z" fill="#e37449" stroke="#ffa575"/>
+    <g fill="none" stroke="#8f4933" stroke-width="2">
+      <path d="m652 158 63-30 19 9 29-14 41 20m-136 23 39-18 25 12 48-23m-88 42 39-18 25 12 48-23m-86 41 40-19 16 8 38-18"/>
+    </g>
+    <path d="m620 103 134-64 135 64-135 65z" fill="url(#lid)" stroke="#e7e5ca"/>
+    <path d="m620 103 134 65v14l-134-65z" fill="#647b76" stroke="#a3b6a7"/>
+    <path d="m754 168 135-65v14l-135 65z" fill="#8ea295" stroke="#ced6be"/>
+    <path d="m643 103 111-53 111 53-111 54z" fill="none" stroke="#80998c"/>
+    <path d="m694 103 60-29 60 29-60 29z" fill="#2c4241" stroke="#728b7d"/>
+    <g fill="none" stroke="#ffbb83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m730 101 14 7 25-12m-14 17 15-7"/>
+    </g>
+    <path d="m638 117 10 5m6 3 5 2.5" stroke="#ecebd1" stroke-width="2.5"/>
+  </g>
+</svg>
